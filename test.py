@@ -1,6 +1,8 @@
 print("Hello world")
+sum = 0
+for egg in range(3, 12):
+    print("I added {} egg(s)".format(egg))
+    sum += egg
 
-for i in range(3, 12):
-    print("I have {} egg(s)".format(i))
-
+print("I have {} eggs".format(sum))
 print("End program")
